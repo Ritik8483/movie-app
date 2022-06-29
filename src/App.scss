@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import './common/color.scss';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+body{
+  background: $primary-color;
+}
+.mainContainer{
+  margin: 0 40px;
+}
